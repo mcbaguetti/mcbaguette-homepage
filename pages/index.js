@@ -8,7 +8,6 @@ import {
   Link,
   List,
   ListItem,
-  SimpleGrid,
   useColorModeValue } from '@chakra-ui/react'
 import { ChevronRightIcon} from '@chakra-ui/icons'
 
@@ -16,7 +15,6 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
-import { GridItem } from '../components/grid-item'
 import {
   IoLogoTwitter,
   IoLogoGithub,
@@ -30,7 +28,7 @@ const Page = () => {
     <Layout>
       <Container>
         <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} mb={6} p={3} align="center">
-          Hello, I'm a computer science student based in Italy!
+          Hello, I&apos;m a computer science student based in Italy!
         </Box>
 
         <Box display={{md:'flex'}}>
@@ -49,7 +47,7 @@ const Page = () => {
           <Heading as="h3" variant="section-title">
             Work
           </Heading>
-          <Paragraph>I'm a computer science student based in Milan, with a passion for building digital services/stuff. I have a knack for all things launching products, from planning and designing all the way to solving real-life problems with code. When not online, I love hanging out with friends, playing football, studying chinese, homebrewing, painting and so on.{' '}
+          <Paragraph>I&apos;m a computer science student based in Milan, with a passion for building digital services/stuff. I have a knack for all things launching products, from planning and designing all the way to solving real-life problems with code. When not online, I love hanging out with friends, playing football, studying chinese, homebrewing, painting and so on.{' '}
           .
           </Paragraph>
           <Box align="center" my={4}>
@@ -71,11 +69,11 @@ const Page = () => {
           </BioSection>
           <BioSection>
             <BioYear>2020</BioYear>
-            Completed the Bachelor's Program in Computer Engineering at Politecnico di Milano
+            Completed the Bachelor&apos;s Program in Computer Engineering at Politecnico di Milano
           </BioSection>
           <BioSection>
             <BioYear>2022</BioYear>
-            Completed the Master's Program in Computer Science at Università degli Studi di Torino
+            Completed the Master&apos;s Program in Computer Science at Università degli Studi di Torino
           </BioSection>
         </Section>
 
