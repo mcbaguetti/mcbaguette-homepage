@@ -24,7 +24,7 @@ const Works = () => {
           </Section>
           <Section>
             <WorkGridItem id="postagging" title="PosTagger" thumbnail={thumbPosTag}>
-              A university project for part-of-speech tagging,
+              A NLP university project for part-of-speech tagging,
               implemented with Hidden Markov Model
               for Latin and Ancient Greek languages.
             </WorkGridItem>
