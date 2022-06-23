@@ -82,14 +82,10 @@ const Page = () => {
               I ♥
             </Heading>
              <Paragraph>
-              Art, Music,{' '}
-             <Link href="https://illust.odoruinu.net/" target="_blank">
+              Art, Music,
                Painting
-             </Link>
-             , Coffee,{' '}
-             <Link href="https://500px.com/p/craftzdog" target="_blank">
+             , Coffee,
                Videomaking
-             </Link>
              , Homebrewing, Skating, Studying Chinese, Memes, Beer
            </Paragraph>
           </Section>
