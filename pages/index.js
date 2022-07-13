@@ -18,9 +18,8 @@ import { BioSection, BioYear } from '../components/bio'
 import {
   IoLogoTwitter,
   IoLogoGithub,
-  IoLogoDiscord,
   IoLogoInstagram,
-  IoLogoTwitch
+  IoLogoYoutube
 } from 'react-icons/io5'
 
 const Page = () => {
@@ -113,18 +112,7 @@ const Page = () => {
                colorScheme="teal"
                leftIcon={<IoLogoTwitter />}
              >
-               @TommasoComelli (mcbaguette)
-             </Button>
-           </Link>
-         </ListItem>
-         <ListItem>
-           <Link href="https://discord.gg/3NEnj7ca" target="_blank">
-             <Button
-               variant="ghost"
-               colorScheme="teal"
-               leftIcon={<IoLogoDiscord />}
-             >
-              Baguettown
+               @TommasoComelli
              </Button>
            </Link>
          </ListItem>
@@ -140,11 +128,11 @@ const Page = () => {
            </Link>
          </ListItem>
          <ListItem>
-           <Link href="https://www.twitch.tv/mcbaguetti" target="_blank">
+           <Link href="https://www.youtube.com/channel/UCPfxvLu5evD3SyJWIB8vyug" target="_blank">
              <Button
                variant="ghost"
                colorScheme="teal"
-               leftIcon={<IoLogoTwitch />}
+               leftIcon={<IoLogoYoutube />}
              >
               mcbaguetti
              </Button>

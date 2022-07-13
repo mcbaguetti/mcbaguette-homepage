@@ -15,12 +15,6 @@ const Work = () => (
       </P>
       <List ml={4} my={4}>
         <ListItem>
-          <Meta>Link</Meta>
-          <Link href="">
-             <ExternalLinkIcon mx="2px" />
-          </Link>
-        </ListItem>
-        <ListItem>
           <Meta>Platform</Meta>
           <span>Windows/macOS/Linux/Android/iOS</span>
         </ListItem>

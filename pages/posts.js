@@ -19,22 +19,22 @@ const Posts = () => (
           <GridItem
             title="Sumi-e"
             thumbnail={thumbSumie}
-            href=""
+            href="https://www.instagram.com/p/CdYoLpNqTcs/"
           />
           <GridItem
             title="Homebrewing"
             thumbnail={thumbHomeBrewing}
-            href=""
+            href="https://www.instagram.com/p/BwxnFtJAULI/"
           />
           <GridItem
             title="Chinese"
             thumbnail={thumbChinese}
-            href=""
+            href="https://www.instagram.com/p/Bcrmg6XhxeJ/"
           />
           <GridItem
             title="Videomaking"
             thumbnail={thumbVideomaking}
-            href=""
+            href="/workinprogress"
           />
         </SimpleGrid>
       </Section>

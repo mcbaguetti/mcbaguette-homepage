@@ -16,7 +16,7 @@ const Work = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Meta>GitHub Link</Meta>
-          <Link href="">
+          <Link href="/workinprogress">
             ... <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
